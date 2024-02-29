@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://raw.githubusercontent.com/WinkidsLu/wordpress_image/main/202402271344208.jpeg">
 <meta property="article:published_time" content="2024-02-28T12:41:14.000Z">
-<meta property="article:modified_time" content="2024-02-29T07:18:27.912Z">
+<meta property="article:modified_time" content="2024-02-29T09:25:28.121Z">
 <meta property="article:author" content="Wang Lu">
 <meta property="article:tag" content="NLP">
 <meta property="article:tag" content="LLM">
@@ -57,7 +57,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2024-02-29 15:18:27'
+  postUpdate: '2024-02-29 17:25:28'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -154,7 +154,7 @@
         }
       }
       detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avator.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">16</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://raw.githubusercontent.com/WinkidsLu/wordpress_image/main/202402271344208.jpeg')"><nav id="nav"><span id="blog-info"><a href="/" title="𝑨𝒎𝒐𝒓 𝒗𝒊𝒏𝒄𝒊𝒕 𝒐𝒎𝒏𝒊𝒂"><span class="site-name">𝑨𝒎𝒐𝒓 𝒗𝒊𝒏𝒄𝒊𝒕 𝒐𝒎𝒏𝒊𝒂</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">LLM(0B):BERT、ELMO、GPT、HMM、CRF、序列模型简介</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-02-28T12:41:14.000Z" title="发表于 2024-02-28 20:41:14">2024-02-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-02-29T07:18:27.912Z" title="更新于 2024-02-29 15:18:27">2024-02-29</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/LLM/">LLM</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="1-BERT-模型"><a href="#1-BERT-模型" class="headerlink" title="1. BERT 模型"></a>1. BERT 模型</h1><blockquote>
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avator.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">16</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://raw.githubusercontent.com/WinkidsLu/wordpress_image/main/202402271344208.jpeg')"><nav id="nav"><span id="blog-info"><a href="/" title="𝑨𝒎𝒐𝒓 𝒗𝒊𝒏𝒄𝒊𝒕 𝒐𝒎𝒏𝒊𝒂"><span class="site-name">𝑨𝒎𝒐𝒓 𝒗𝒊𝒏𝒄𝒊𝒕 𝒐𝒎𝒏𝒊𝒂</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">LLM(0B):BERT、ELMO、GPT、HMM、CRF、序列模型简介</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-02-28T12:41:14.000Z" title="发表于 2024-02-28 20:41:14">2024-02-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-02-29T09:25:28.121Z" title="更新于 2024-02-29 17:25:28">2024-02-29</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/LLM/">LLM</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="1-BERT-模型"><a href="#1-BERT-模型" class="headerlink" title="1. BERT 模型"></a>1. BERT 模型</h1><blockquote>
 <p>Devlin, J., Chang, M. W., Lee, K., &amp; Toutanova, K. (2018). Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805.</p>
 </blockquote>
 <ol>
@@ -247,7 +247,7 @@
     1. 所有参与训练的句子记作A，50%的B是原始文本中真实跟随A的下一句话（isNext，代表正样本），50%的B是原始文本中随机抽取的一句话（noNext，代表负样本）
     2. 该任务中模型可以在测试集达到97%-98%的正确率
 
-## 1.4 ELMO 模型简介
+## 1.4 ELMO 模型简介（Hung-yi Lee）
 
 让机器读懂文字：
 1. **N Hot vector**：维度大，且不能表达相似含义的token，例如猫和狗，汽车和自行车
@@ -266,7 +266,19 @@
 
     4. BERT和ELMO都能看作是抽特征的工具
 </code></pre><blockquote>
+<p>Q:BERT模型的优缺点？<br><strong>优点：</strong></p>
+<ol>
+<li>预训练+fine-tuning，在11项nlp任务中取得最优结果（SOTA）</li>
+<li>BERT源于transformer，相比传统RNN更高效，可并行化处理并且能捕捉长距离的语义和结构依赖</li>
+<li>BERT采用transformer中的encoder，获得了真正意义上的bidirectional context，为后续微调任务留出了足够的空间。<br><strong>缺点：</strong></li>
+<li>模型庞大，参数多，不利于资源紧张的场景，也不利于上线的实时处理</li>
+<li>BERT的中文模型中，以字为token，很多需要词向量的应用无法直接使用，并且模型无法识别生僻词，只能用UNK代替</li>
+<li>BERT的预训练任务MLM，[MASK]标记只在训练阶段出现，在预测阶段不会出现，造成了一定量信息差，因此训练时不能过多使用[MASK]，否则影响模型表现</li>
+<li>按照MLM任务约定，每个batch数据中只有15%token参与训练，被模型学习和预测，所以BERT的收敛速度比left-to-right模型慢很多（left-to-right模型中每个token都会参与训练）</li>
+</ol>
+</blockquote>
 <p>参考：</p>
+<blockquote>
 <ol>
 <li>李宏毅bert教程</li>
 <li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1VM411R7Sb/?spm_id_from=333.999.0.0&amp;vd_source=0f73a86e66095f29087c390106c3e5ad">https://www.bilibili.com/video/BV1VM411R7Sb/?spm_id_from=333.999.0.0&amp;vd_source=0f73a86e66095f29087c390106c3e5ad</a></li>
