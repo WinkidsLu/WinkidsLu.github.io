@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://raw.githubusercontent.com/WinkidsLu/wordpress_image/main/202402271344208.jpeg">
 <meta property="article:published_time" content="2024-03-22T07:53:01.000Z">
-<meta property="article:modified_time" content="2024-03-22T09:17:07.167Z">
+<meta property="article:modified_time" content="2024-03-22T09:21:08.015Z">
 <meta property="article:author" content="Wang Lu">
 <meta property="article:tag" content="NLP">
 <meta property="article:tag" content="LLM">
@@ -58,7 +58,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2024-03-22 17:17:07'
+  postUpdate: '2024-03-22 17:21:08'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -155,7 +155,7 @@
         }
       }
       detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avator.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">9</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://raw.githubusercontent.com/WinkidsLu/wordpress_image/main/202402271344208.jpeg')"><nav id="nav"><span id="blog-info"><a href="/" title="𝑨𝒎𝒐𝒓 𝒗𝒊𝒏𝒄𝒊𝒕 𝒐𝒎𝒏𝒊𝒂"><span class="site-name">𝑨𝒎𝒐𝒓 𝒗𝒊𝒏𝒄𝒊𝒕 𝒐𝒎𝒏𝒊𝒂</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">LLM(1):大模型微调技术</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-03-22T07:53:01.000Z" title="发表于 2024-03-22 15:53:01">2024-03-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-03-22T09:17:07.167Z" title="更新于 2024-03-22 17:17:07">2024-03-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/LLM/">LLM</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="0-微调技术路线"><a href="#0-微调技术路线" class="headerlink" title="0. 微调技术路线"></a>0. 微调技术路线</h2><p><strong>微调的目的：</strong></p>
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avator.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">9</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://raw.githubusercontent.com/WinkidsLu/wordpress_image/main/202402271344208.jpeg')"><nav id="nav"><span id="blog-info"><a href="/" title="𝑨𝒎𝒐𝒓 𝒗𝒊𝒏𝒄𝒊𝒕 𝒐𝒎𝒏𝒊𝒂"><span class="site-name">𝑨𝒎𝒐𝒓 𝒗𝒊𝒏𝒄𝒊𝒕 𝒐𝒎𝒏𝒊𝒂</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">LLM(1):大模型微调技术</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-03-22T07:53:01.000Z" title="发表于 2024-03-22 15:53:01">2024-03-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-03-22T09:21:08.015Z" title="更新于 2024-03-22 17:21:08">2024-03-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/LLM/">LLM</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="0-微调技术路线"><a href="#0-微调技术路线" class="headerlink" title="0. 微调技术路线"></a>0. 微调技术路线</h2><p><strong>微调的目的：</strong></p>
 <ol>
 <li>预训练成本高（65B需要780GB显存）</li>
 <li>提示工程有天花板（任何提示工程依托于基础模型，token存在上限与推理成本；生成token与需要的成本呈平方关系）</li>
@@ -242,11 +242,17 @@
 <li>提升微调效率和稳定性，可复用性增强</li>
 <li>论文中lr的比较发现Adapter方法对lr具有鲁棒性</li>
 </ul>
-<p><img src="https://raw.githubusercontent.com/WinkidsLu/wordpress_image/main/202403221634978.png" alt=""></p>
+<div align="center">
+<img src=https://raw.githubusercontent.com/WinkidsLu/wordpress_image/main/202403221634978.png style="zoom:40%;"/>
+</div>
+
 <blockquote>
 <p>补充：变体，AdaMix，AdapterFusion，AdapterDrop</p>
 </blockquote>
-<h3 id="1-4-Prefix-Tuning（Stanford-2021）：自动化构造prompt"><a href="#1-4-Prefix-Tuning（Stanford-2021）：自动化构造prompt" class="headerlink" title="1.4 Prefix Tuning（Stanford 2021）：自动化构造prompt"></a>1.4 Prefix Tuning（Stanford 2021）：自动化构造prompt</h3><p><img src="https://raw.githubusercontent.com/WinkidsLu/wordpress_image/main/202403221640306.png" alt=""></p>
+<h3 id="1-4-Prefix-Tuning（Stanford-2021）：自动化构造prompt"><a href="#1-4-Prefix-Tuning（Stanford-2021）：自动化构造prompt" class="headerlink" title="1.4 Prefix Tuning（Stanford 2021）：自动化构造prompt"></a>1.4 Prefix Tuning（Stanford 2021）：自动化构造prompt</h3><div align="center">
+<img src=https://raw.githubusercontent.com/WinkidsLu/wordpress_image/main/202403221640306.png style="zoom:40%;"/>
+</div>
+
 <p><strong>论文解读：</strong></p>
 <ul>
 <li><em>optimizing a task-specific vector</em></li>
@@ -259,7 +265,11 @@
 <li>降低GPU算力和训练时间成本（<strong>Prefix不需要加载整个大模型</strong>）</li>
 <li>适用于参数量庞大的模型，例如GPT3</li>
 </ul>
-<p><img src="https://raw.githubusercontent.com/WinkidsLu/wordpress_image/main/202403221653569.png" alt=""></p>
+<div align="center">
+<img src=https://raw.githubusercontent.com/WinkidsLu/wordpress_image/main/202403221653569.png style="zoom:60%;"/>
+</div>
+
+
 <blockquote>
 <p>补充：prefix tuning基于提示词前缀优化的微调方法，在输入token前面构造一段任务相关的virtual tokens作为prefix，训练时只更新prefix部分参数，固定PLM其它参数。Fine-tuning会更新Transformer所有参数，对每个任务都需要保存一份微调后的权重模型；prefix-tuning只更新前缀部分参数<br>针对不同的模型结构需要构造不同prefix</p>
 <ul>
